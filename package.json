@@ -11,7 +11,7 @@
     }
   },
   "dependencies": {
-    "cordova-android": "^7.0.0",
+    "cordova-android": "7",
     "cordova-plugin-hello-kotlin": "git+https://github.com/dpa99c/cordova-plugin-hello-kotlin.git",
     "xml2js": "^0.4.19"
   }

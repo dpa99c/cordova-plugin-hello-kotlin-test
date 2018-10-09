@@ -13,9 +13,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <plugin name="cordova-plugin-hello-kotlin" spec="https://github.com/dpa99c/cordova-plugin-hello-kotlin" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <engine name="android" spec="^7.0.0" />
+    <plugin name="cordova-plugin-hello-kotlin" spec="https://github.com/dpa99c/cordova-plugin-hello-kotlin.git" />
+    <engine name="android" spec="7" />
 </widget>
