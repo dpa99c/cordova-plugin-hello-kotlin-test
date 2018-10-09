@@ -1,0 +1,17 @@
+{
+  "name": "io.cordova.hellokotlin",
+  "version": "1.0.0",
+  "displayName": "Hello Kotlin",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-hello-kotlin": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-plugin-hello-kotlin": "git+https://github.com/dpa99c/cordova-plugin-hello-kotlin.git"
+  }
+}
