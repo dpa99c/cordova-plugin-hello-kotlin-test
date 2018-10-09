@@ -1,14 +1,11 @@
 function log(msg){
-    document.body.innerHTML += '<p>' + msg + '</p>';
+    $('#log').append('<p>' + msg + '</p>');
 }
 
-function onDeviceReady() {
-    log("deviceready");
-
-    hellokotlin.hello("Hello Kotlin!", function(msg){
+function submit(){
+    hellokotlin.hello($('#input').val(), function(msg){
         log(msg);
     },function(err){
         log(err);
     });
 }
-document.addEventListener('deviceready', onDeviceReady, false);

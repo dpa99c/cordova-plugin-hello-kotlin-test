@@ -7,18 +7,15 @@
     <author email="dave@workingedge.co.uk">Dave Alden</author>
     <content src="index.html" />
     <access origin="*" />
-
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-
     <plugin name="cordova-plugin-hello-kotlin" spec="https://github.com/dpa99c/cordova-plugin-hello-kotlin" />
-
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <engine name="android" spec="~7.0.0" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
